@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index HTML</title>
+    <link rel="stylesheet" href="cssfile.css">
+</head>
+<style>
+	.my-slide-fade{
+		text-decoration: none;
+	}
+</style>
+<body style="height: 2000px;">
+	<header>
+		<div id="logo">Index<span id="logo-s">HTML</span></div>
+		
+	</header>
+	
+    <div class="slider">
+		<!-- fade css -->
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>WELCOME TO "BEST TRIPS"</h1>
+				<p>Nguyen Tan Phuc<br>
+				Nguyen Tien Dat<br>
+				Ngo Minh Khoe</p>
+			</div>
+			<img src="img1.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>ABOUT</h1>
+				<p style="margin-right: 100px;">"Best Trips"<br>
+				It is the final project for the Open Source Software Development course. 
+				It is a travel management system that allows admins to manage all the available tours on the website, customers can also visit the website
+				to view the details about the tour and book the tour if they want.</p>
+				<br><p style="margin-right: 100px;">The project is developed by: Nguyễn Tấn Phúc, Ngô Minh Khỏe, and Nguyễn Tiến Đạt from the class 18DTHQA2.</p>
+			</div>
+			<img src="img2.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>FEATURE</h1>
+				<h3>Account Management</h3>
+				<p style="margin-right: 100px;">Each user will have a role: either admin or customer. <br> 
+					Customer can register an account for themselves and they can sign in their accounts to book tours.
+				  </p>
+				  <h3>Tour Management</h3>
+				<p style="margin-right: 100px;">The list of tours will be displayed on the website so users can see and check out the tour they like. <br> 
+					User with the role of admin can add, delete, edit the tours if they want to.</p>
+			</div>
+			<img src="img3.jpg" style="width: 100%; height: 100%;">
+		</div>
+		<!-------------------------------------->
+		<div class="myslide fade">
+			<div class="txt">
+				<h3>CV</h3>
+				<ul>
+					<li><a href="https://nguyentiendat-1002.github.io/CV2/?fbclid=IwAR2UFMIVtJJAkKbRzAZYim7meboCpBzp9n3WrwnP1yHtqmPAnqVzM_m7IF4">Nguyen Tien Dat  </a></li>
+					<li><a href="https://nguyentiendat-1002.github.io/CV/?fbclid=IwAR2d442jzPYajMwU7oqjZxSQskRaLmVvtrx-Ba4nj_mdzJq39PUE9jfWkqw">Nguyen Tan Phuc</a></li>
+					<li><a href="https://nguyentiendat-1002.github.io/Khoe/?fbclid=IwAR0iMI502Y9pwoR4yW029nRln86rKt7kgmewkCmqw1Pjt60wcAw0OxTkgqs">Ngo Minh Khoe</a></li>
+				</ul>
+			</div>
+			<img src="img4.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		
+			
+		<!-- /fade css -->
+		
+		<!-- onclick js -->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+		<div class="dotsbox" style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			
+		</div>
+		<!-- /onclick js -->
+	</div>
+	
+<script src="jsfile.js"></script>
+</body>
+</html>
+
+
